@@ -1,0 +1,38 @@
+ul {text-align: center; width: 100%; background-color: DarkRed ; height: 30px;}
+li {display: inline; margin-left: 4.5em ;margin-right: 4.5em; float: left; font-size: 20px}
+ul a {color: white; text-decoration: none;}
+h1,.TAB {color:white;}
+.d1 {position: absolute; font-family:Courier; top: 610px; right: 70px}
+.pic1:hover {
+	transform:scale(1.2,1.2);
+	transform-origin:100 100;
+	
+}.hov1 p{ display: none;}
+.hov1:hover p{display:block; color:white; font-size: 30px;}
+
+body{background: url("backg1.jpg") no-repeat center fixed; background-size: cover; color:white}
+
+
+@keyframes example1 {
+    from { margin-left: 200%;width: 300%; }
+    to {  margin-left: 0%;width: 100%}
+}
+
+@keyframes example2 {
+    from {margin-left: -200%;width: 300%; }
+    to { margin-left: 0%;width: 100%}
+}
+.YES2 {
+animation-name: example2;
+font-style: italic; font-size: 20px;
+    animation-duration: 5s;
+	font-style: italic; color: white; font-size: 20px;
+}
+
+.YES1 {
+font-style: italic; font-size: 20px;
+animation-name: example1;
+    animation-duration: 5s;
+	font-style: italic; color: white; font-size: 20px;
+}
+
