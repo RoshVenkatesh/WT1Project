@@ -1,0 +1,96 @@
+body{
+background-image:url("assets/minimalistic_geometry_spheres_forms_low_poly_1680x1050_wallpaper_Wallpaper HD_2560x1600_www.paperhi.com.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+
+.r{
+color:black;
+background-color:#fefecd;
+position:absolute;
+top:400px;
+left:660px;
+height:80px;
+width:150px;
+font-size:30px;
+}
+
+.l{
+color:black;
+background-color:#fefecd;
+position:absolute;
+top:400px;
+left:480px;
+height:80px;
+width:150px;
+font-size:30px;
+}
+
+#demo:active {
+  background-color: #F39C12;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#demo {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #922B21  ;
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0 9px #999;
+  position:absolute;
+  right:90px;
+  top:100px;
+  
+}
+
+#demo:hover {background-color: #F39C12}
+
+#analysis{
+font-size:20px;
+color:white;
+}
+
+.c{
+height:250px;
+width:200px;
+background-color:#1A5276;
+position:absolute;
+right:100px;
+top:200px;
+padding: 10px;
+    border: 5px solid black;
+    margin: 0; 
+	font-size:30px;
+	color:white;
+}
+
+#ques{
+color:black;
+font-size:50px;
+position:absolute;
+left:50px;
+top:100px;
+}
+
+.h{
+	position:absolute;
+	left:450px;
+	top:100px;
+}
+
+.i{
+	position:absolute;
+	left:450px;
+	top:200px;
+	
+	
+}

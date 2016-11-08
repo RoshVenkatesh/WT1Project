@@ -1,0 +1,92 @@
+.c{
+height:360px;
+width:250px;
+background-color:#1A5276;
+position:absolute;
+right:50px;
+top:200px;
+color:white;
+padding: 10px;
+    border: 5px solid black;
+    margin: 0; 
+	font-size:20px;
+}
+
+body{
+background-image:url("assets/polygon-art-sunset-hd-1080P-wallpaper.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+#demo:active {
+  background-color: #F39C12;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#demo {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #922B21  ;
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0 9px #999;
+  position:absolute;
+  right:90px;
+  top:100px;
+  
+}
+
+#demo:hover {background-color: #F39C12}
+
+#analysis{
+font-size:20px;
+color:white;
+}
+
+.butb{
+color:red;
+background-color:#fefecd;
+position:absolute;
+top:440px;
+left:630px;
+height:80px;
+width:150px;
+font-size:30px;
+}
+.buta{
+color:green;
+background-color:#fefecd;
+position:absolute;
+top:440px;
+left:450px;
+height:80px;
+width:150px;
+font-size:30px;
+}
+
+.a{
+	position:absolute;
+	top:200px;
+	left:400px;
+	
+}
+
+.ab{
+	position:absolute;
+	top:200px;
+	left:650px;
+	
+}
+
+.h{
+	position:absolute;
+	left:450px;
+	
+}

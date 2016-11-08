@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Q.2</title>
+<link rel="stylesheet" type="text/css" href="vis.css">
+<a href="vis7.html">NEXT</a>
+<a href="vis5.html">PREVIOUS</a>
+</head>
+<style>
+.image{
+height:400px;
+width:300px;
+
+}
+
+#image2{
+display:none;
+}
+.c{
+height:400px;
+width:550px;
+background-color:#1A5276;
+position:absolute;
+right:50px;
+top:100px;
+color:red;
+padding: 10px;
+    border: 5px solid black;
+    margin: 0; 
+	font-size:20px;
+}
+
+
+
+
+
+
+</style>
+<body>
+<div id="uni">
+<div id="quediv">
+<h2 id="que">Does Lincoln's Face Look Normal?</h2>
+</div>
+<div id="b" style="display:none;" class="c"></br>
+<p id="ans">
+Look at it upside-down. You can see that the eyes close.</br>
+Few neurons in the brain are specialised for image processing.</br>
+Faces are usually seen upright. When upside-down,the brain no longer recognizes a face,</br>
+but an object.Neurons processing objects are different from those processing faces and not as specialized.</br>
+ As a consequence these neurons do not respond to face distortions as well. </p>
+</div>
+<img src="assets/LincolnUpRight.jpg" class="image">
+
+<button input type="button" onclick="myFunction()" id="demo" >ANALYSIS</button>
+</div>
+<script>
+function myFunction(){
+document.getElementById('b').style.display="block";
+}
+</script>
+</body>
+</html>
+

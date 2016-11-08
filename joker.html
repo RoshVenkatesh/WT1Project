@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="stylechar.css">
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+
+<title>1</title>
+</head>
+
+<style>
+.a{
+position:absolute;
+right:200px;
+top:100px;
+border-radius:80%;
+height:500px;
+width:600px;
+}
+
+.a:hover{
+transform: scale(1.5,1.5);
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 	
+    typing 4s steps(30, end),
+    blink-caret .2s step-end infinite;
+	position:absolute;
+	left:500px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+</style>
+
+<body>
+<img src="assets/heath_ledger_joker_tribute_in_vector_by_zsquaresoff-d4mnn7w.jpg" class="a">
+<div class="typewriter">
+  <h1 style="color:white; font-size:40px;">JOKER</h1>
+</div>
+<div class="b" style="font-family: 'Lobster Two', cursive; color:white; font-size:25px;
+text-align: justify;
+    text-justify: inter-word;
+	">
+	<div class="theory">
+The Joker is a psychopath.Psychopathy reflects interpersonal characteristics and behavior that are often rooted in a lack of empathy.
+psychopathy is a personality construct and not a diagnosis of a mental disorder.
+And - The Joker is NOT mentally ill. Batman villains, both serial murderers and non-serial murderers alike, are frequently referred to as 'insane' in the comics, 
+but insanity is actually not a psychiatric or mental health term, but a legal concept.
+</div>
+<button class="disorder" onclick="fun()">INTERMITTENT EXPLOSIVE DISORDER </button>
+<div style="display:none;" id="b">
+Involves repeated episodes of impulsive, aggressive, violent behavior or angry verbal 
+outbursts in which you react grossly out of proportion
+ to the situation.People with intermittent explosive disorder may attack others and
+ their possessions, causing bodily injury and property damage.
+ They may also injure themselves during an outburst.
+</div>
+<script>
+function fun(){
+document.getElementById("b").style.display="block";
+
+
+}
+</script>
+</body>
+
+</html>

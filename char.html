@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> character </title>
+</head>
+<style>
+.back {
+ position:absolute;
+ height:600px;
+ width:1350px;
+}
+
+.blur{
+position:absolute;
+height:200px;
+left:560px;
+top:270px;
+width:450px;
+}
+
+
+
+.snape{
+position:absolute;
+height:177px;
+width:329px;
+left:1020px;
+top:292px;
+}
+
+.jim{
+position:absolute;
+top:10px;
+left:13px;
+height:165px;
+width:330px;
+}
+
+.joker{
+position:absolute;
+top:350px;
+height:255px;
+width:335px;
+left:8px;
+}
+
+.cersei{
+position:absolute;
+height:325px;
+left:352px;
+top:145px;
+width:198px;
+
+
+}
+
+
+</style>
+<body>
+<img src="assets/background.gif" class="back">
+<img src="assets/ramsaysnw.gif" class="blur"  id="ram">
+<img src="assets/o-rly.gif" class="snape" id="sna">
+<img src="assets/zYAf2.gif" class="jim" id="jimmor">
+<img src="assets/giphy.gif" class="joker" id="jo">
+<img src="assets/suspicious-cers1.gif" class="cersei" id="cer">
+<script>
+var n = document.getElementById("jimmor");
+n.addEventListener("click", funa, false);
+function funa()
+{
+window.location.href = "jim.html";
+}
+
+var m = document.getElementById("cer");
+m.addEventListener("click", funb, false);
+function funb()
+{
+window.location.href = "char1.html";
+}
+
+var o = document.getElementById("jo");
+o.addEventListener("click", func, false);
+function func()
+{
+window.location.href = "joker.html";
+}
+
+var p = document.getElementById("sna");
+p.addEventListener("click", fund, false);
+function fund()
+{
+window.location.href = "snape.html";
+}
+
+var q = document.getElementById("ram");
+q.addEventListener("click", fune, false);
+function fune()
+{
+window.location.href = "char2.html";
+}
+
+
+</script>
+</body>
+</html>

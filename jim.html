@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="stylechar.css">
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+
+<title>1</title>
+</head>
+
+<style>
+.a{
+position:absolute;
+right:200px;
+top:100px;
+border-radius:80%;
+height:500px;
+width:400px;
+}
+
+.a:hover{
+transform: scale(1.5,1.5);
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 	
+    typing 4s steps(30, end),
+    blink-caret .2s step-end infinite;
+	position:absolute;
+	left:500px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+</style>
+
+<body>
+<img src="assets/Jim-Moriarty-jim-moriarty-34404472-336-438.jpg" class="a">
+<div class="typewriter">
+  <h1 style="color:white; font-size:40px;">JIM MORIARTY</h1>
+</div>
+<div class="b" style="font-family: 'Lobster Two', cursive; color:white; font-size:25px;
+text-align: justify;
+    text-justify: inter-word;
+	">
+	<div class="theory">
+Introversion (I) . Intuition (N). Thinking (T). Judgment (J).
+Jim Moriarty is psychologically similar to Sherlock .
+However, the difference between the two is that Sherlock copes with his boredom
+ in ways that benefit others, whereas
+ Jim Moriarty copes with his boredom in ways that are destructive to not only others, but himself. 
+</div>
+<button class="disorder" onclick="fun()">PASSIVE-AGGRESSIVE PERSONALITY DISORDER </button>
+<div style="display:none;" id="b">
+Disregard for the safety of oneself and others,
+ inability to feel remorse or guilt for actions,
+ inability to sympathize with others,
+sadistic tendencies , 
+ inability to cope with boredom properly, manipulative and deceitful, 
+ strong desire for chaos and disorder, extremely large ego, disregard for authority,
+ indifference to the wants and needs of others, 
+prone to obsession, tendency to identify and exploit weaknesses of others
+</div>
+<script>
+function fun(){
+document.getElementById("b").style.display="block";
+
+
+}
+</script>
+</body>
+
+</html>
